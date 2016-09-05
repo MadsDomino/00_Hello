@@ -14,7 +14,8 @@ namespace _00_Hello
         [TestMethod]
         public void TestHelloFred()
         {
-            Assert.AreEqual("Hello, Fred", Functions.Hello("Fred"));
+            string name = "Fred";
+            Assert.AreEqual("Hello, "+name, Functions.Hello(name));
         }
     }
 }
