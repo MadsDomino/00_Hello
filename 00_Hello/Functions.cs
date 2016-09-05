@@ -2,5 +2,9 @@
 {
     internal class Functions
     {
+        public string Hello()
+        {
+            return "Hello";
+        }
     }
 }
